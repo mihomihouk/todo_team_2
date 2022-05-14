@@ -34,11 +34,11 @@ This project was led by code learners, who wants to build up their knowledge and
 
 ### Challenges
 
-- Write code that is easy to understand by other team members
+- Write code that other members can easily read and reuse
 - Structure folders and files for component reusuability and maintainability
 - Maintain smooth communication across all team members, and ensure successul project management using Slack and weekly meeting to meet the deadline
 
-## How to Install and Run the Project
+## 🔽 How to Install and Run
 
 To run the project in your local environment, follow the steps below.
 
@@ -49,14 +49,39 @@ To run the project in your local environment, follow the steps below.
 5. Type `yarn dev ` command on your terminal
 6. Access `http://localhost:3000/` 
 
-## How to Use the Project
+## 📖 How to Use 
 
-- Visit https://todo-team-2-qigd0p0al-m8na.vercel.app/
-- instructions and examples so users/contributors can use the project. 
-- also make use of visual aids
-- also the structure and design principles used in your project.
+Visit https://todo-team-2-qigd0p0al-m8na.vercel.app/
 
-## Team Members
+
+
+https://user-images.githubusercontent.com/93969412/168444579-dee4cf29-d827-4197-8dc7-65478218f8c9.mov
+
+
+
+### Creat a new todo
+1. In the TODO LIST page, click the pink create icon on the top right. This will guide you to the "NEW TODO" page.
+2. In the NEW TODO page, fill out the form and then click the CREATE button.
+3. You will see the todo is added to the todo list in the home page.
+
+### Check the detail
+1. In the TODO LIST page, click the title of a todo on the list. This will guide you to the "SHOW TODO" page.
+2. Now you can see the detail of the todo. Here click "Comment" button on the top right to create a new comment.
+3. After clicking CREATE button in the comment modal, you can see the comment on the right of the screen inn SHOW TODO.
+
+### Update
+1. In the todo list, click the edit button placed on the right end of individual todo row. This will guide you to the "EDIT TODO" page.
+2. Fill out the form and click "UPDATE" button.
+
+### Delete
+1. In the todo list, click the trash icon placed on the right end of individual todo row.
+
+### Filter
+1. In the TODO LIST page, you can change status and priority of a todo by clicking the status toggle button and using the priority select box.
+2. Use Search bar at the top of the page to search todos by key words.
+3. Use status or priority select box next to the search bar to filter todos under a specific condition.
+
+## 👥 Team Members
 
 - Support：Jumpei（Junkichi89）
 - Reviwer : All members
