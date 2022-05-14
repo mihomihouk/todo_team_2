@@ -1,191 +1,72 @@
-# Todo リスト作成チーム開発（第 2 期）
+# Todo App Team Development
 
-## 開発メンバー
+With this todo app, you can create a new todo entry, read the all entries on a list, delete, edit and sort them.
+You can also add comments in the todo detail page.
 
-- 管理： ジュンペイ　（Junkichi89）
-- レビュワー: ジュンペイ, Hiro, メンバー全員
-- サポート: Hiro (hirooutdoor)
+## Table of Contents (Optional)
+- Overview
+- How to Install and Run the Project
+- How to Use the Project
+- Team Members
 
-- 参加メンバー
-  - miho (mihomihouk)
-  - 中植　　（insideplant）　　+ デザイン作成
-  - ayaka 　　（ayakamiyake7）
-  - yuri-i 　（london-newyork）12月末〜1月下旬までリーダー（Issue管理・進捗管理・連絡係等）。1月以降は実装に参加。
-  - nao 　　（nao5100000）
-  - Shogo 　　（washogo）
-  - やぶい　　（iamyabui）
+## Overview
 
-## 使用技術
+### Technologies used
 
-- React.js (https://github.com/facebook/react)
-- Next.js (https://github.com/vercel/next.js)
-- chakra-ui (https://github.com/chakra-ui/chakra-ui/)
+This project was led by code learners, who wants to build up their knowledge and skills on React as well as some of the most popular frameworks and libraries in React development. As such, the following technologies are chosen.
 
-## 推奨 VScode 拡張機能
+- React 
+- Next.js (React Framework, Routing)
+- Recoil (State Management)
+- Chakra-UI (CSS Framework)
 
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&ssr=false#qna) コミットの一覧 → 詳細を閲覧できる
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) ファイルの履歴などを確認できる
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+### Features
 
-※　おすすめしたいものがあれば適宜追加する
+- Create, update, read, and delete function for todo
+- Comment function in the todo detail pages
+- Markdown editor in description inputs
+- Smooth Pagination in the todo list 
+- Scrolling comments in the todo detail pages
+- Select box to change the status of individual todos
+- Button to change the prioprity label of individual todos
+- Search bar to specify a todo 
+- Select box to filter out todos under chosen condition
 
-## バージョン情報
+### Challenges
 
-volta で管理、volta 以外をお使いの方は自身で以下のバージョンにあわせてください。
+- Write code that is easy to understand by other team members
+- Structure folders and files for component reusuability and maintainability
+- Maintain smooth communication across all team members, and ensure successul project management using Slack and weekly meeting to meet the deadline
 
-https://volta.sh/
+## How to Install and Run the Project
 
-```
-"node": "14.17.0",
-"yarn": "1.22.11",
-```
+To run the project in your local environment, follow the steps below.
 
-## プロジェクトの概要
+1. Choose or create a folder in your PC to clone the project
+2. Go inside the folder on your teminal and type `git clone https://github.com/if-tech-support/todo_team_2.git` to clone
+3. Go inside the cloned project 
+4. Install packages by typing `yarn` command on your working terminal
+5. Type `yarn dev ` command on your terminal
+6. Access `http://localhost:3000/` 
 
-Todo リストの作成を通じて、React、Next.js の基礎、git,Github の使い方に慣れ、チーム開発を体験する
-チームメンバー同士でのコードレビュー、毎週 MTG での issue やデザインについての議論など個人開発では行えない内容をカバーしていきます。
+## How to Use the Project
 
-## 環境構築手順
+- Visit https://todo-team-2-qigd0p0al-m8na.vercel.app/
+- instructions and examples so users/contributors can use the project. 
+- also make use of visual aids
+- also the structure and design principles used in your project.
 
-1. `git clone https://github.com/if-tech-support/todo_team_2.git`
-2. リポジトリのディレクトリへ移動
-3. `yarn` // package の install
-4. `yarn dev `
-   上記を実行し、`http://localhost:3000/`
-   以下の画像の画面が表示できるか確認をお願いします。
+## Team Members
 
-   ![image](https://user-images.githubusercontent.com/24813936/148723807-3b3e571b-6669-4d1c-a96f-d623f9650e09.png)
+- Support：Jumpei（Junkichi89）
+- Reviwer : All members
+- Members
+  - miho (mihomihouk) + Project Leader (Second term)
+  - yuri-i（london-newyork）+ Project Leader (First term)
+  - Nakaue（insideplant）+ Design
+  - ayaka（ayakamiyake7）
+  - nao（nao5100000）
+  - Shogo（washogo）
+  - Yabui（iamyabui）
 
-## 開発ルール
 
-### 自主的な貢献を歓迎
-
-チームにとっていいことを考え行動してくれる方を尊重します。
-やりたいことや試してみたいことなどを自主的に提案していただき、どんどんチーム開発を盛り上げていきましょう！
-基本的にはチームとして行いたいものを自由にやってもらうスタンスで進めていきます。
-
-### git/gitHub
-
-毎週 MTG の際にメンバーの中で翌週のプルリクに対して、レビュワーを 2 人以上決めて、順番に回していく。
-
-#### ブランチ命名規則
-
-issue 番号を必ず含める
-
-**＜具体例＞**
-issue#３　 Todo の作成画面の実装の場合
-
-`git checkout -b #3-Todo-Page-Layout`
-
-#### コミットメッセージ
-
-#issue 番号 + 日本語で端的に
-
-例）
-`git commit -m '#3 Todo作成画面の要素を追加し、レイアウト調整' `
-
-#### 共同での issue 作業の流れ
-
-【担当者】
-①main ブランチを最新にした状態で対応する issue のブランチを main を元に作成する
-・ git checkout -b 対応する issue のブランチ名（ローカルで作成）
-　 ex) git checkout-b #68-New-page
-
-② ローカルで作成した対応する issue のブランチを github へ連携する
-・ git push -u origin 対応する issue のブランチ名（リモートに登録）
-　 ex) git push -u origin #68-New-page
-
-③ 作業者がそれぞれの環境に ① で作成したブランチ(対応する issue のブランチ)を元にして、作業するためのブランチを作成する
-・git checkout -b 作業するためのブランチ名 origin/① で作成したブランチ名
-　 ex）git checkout -b #68-New-page-YAMADA origin/#68-New-page
-
-※個人が作業するブランチでは、main が更新されても git pull origin main はする必要ありません。親ブランチを main ブランチへプルリクをするタイミング（⑧）で git pull origin main をお願い致します。
-
-④ 作業者が ③ で作成した作業ブランチで実装を進める
-
-# ⑤① のリモートのブランチにプルリクをあげる、その際プルリク時の base ブランチを ① のブランチにする
-
-#### 共同での issue 作業の流れ
-
-【担当者】
-①main ブランチを最新にした状態で対応する issue のブランチを main を元に作成する
-・ git checkout -b 対応する issue のブランチ名（ローカルで作成）
-　 ex) git checkout-b #68-New-page
-
-② ローカルで作成した対応する issue のブランチを github へ連携する
-・ git push -u origin 対応する issue のブランチ名（リモートに登録）
-　 ex) git push -u origin #68-New-page
-
-③ 作業者がそれぞれの環境に ① で作成したブランチ(対応する issue のブランチ)を元にして、作業するためのブランチを作成する
-・git checkout -b 作業するためのブランチ名 origin/① で作成したブランチ名
-　 ex）git checkout -b #68-New-page-YAMADA origin/#68-New-page
-
-※個人が作業するブランチでは、main が更新されても git pull origin main はする必要ありません。親ブランチを main ブランチへプルリクをするタイミング（⑧）で git pull origin main をお願い致します。
-
-④ 作業者が ③ で作成した作業ブランチで実装を進める
-
-<<<<<<< HEAD
-⑤① のリモートのブランチにプルリクをあげる、その際プルリク時の base ブランチを ① のブランチにする
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-⑤①のリモートのブランチにプルリクをあげる、その際プルリク時のbaseブランチを①のブランチにする
->>>>>>> 5efbd923fe98f551918d04079c7737296a37bb73
-=======
-⑤作業ブランチをgithubに連携（リモートに登録）して、①のリモートのブランチにプルリクをあげる、その際プルリク時のbaseブランチを①のブランチにする
->>>>>>> #69-Edit-Todo-Functions-MIHO
-・プルリクエストの作成方法
-・プルリクエストのベースブランチを変更する
-=======
-> > > > > > > # 5efbd923fe98f551918d04079c7737296a37bb73
-> > > > > > >
-> > > > > > > ⑤ 作業ブランチを github に連携（リモートに登録）して、① のリモートのブランチにプルリクをあげる、その際プルリク時の base ブランチを ① のブランチにする
-> > > > > > > origin/#69-Edit-Todo-Functions-MIHO
-> > > > > > > ・プルリクエストの作成方法
-> > > > > > > ・プルリクエストのベースブランチを変更する
->>>>>>> 3b0795ac2571ca2cd7997991cd602bec48c825c7
-
-![151705445-726f4388-1f85-48e6-9a4e-66c5596c4432](https://user-images.githubusercontent.com/78947543/151792627-e5fd4020-1ffc-4e82-a3a0-bdf1df346a9d.png)
-
-<<<<<<< HEAD
-⑥④ のプルリクを担当者同士でレビュー
-　担当者同士で質問しあったりして意見（コード）を１つにまとめる
-
-⑦ 担当者でレビューを行い、意見がまとまればマージするプルリクを承認し、① のブランチにマージする。
-→ マージ後、作業者の 1 人がローカル環境で ① のブランチを最新状態にした後、git pull origin main を行う。（ここでコンフリクトなどが発生する場合は、解消すること）
-→ その後、① のブランチを github へ連携する（リモートの ① のブランチへ反映させる）
-
-⑧ マスターブランチ（main）にプルリクをあげる（担当者の作業はここまで）
-　 ① のブランチを操作して base ブランチを main にしてプルリクをあげる
-
-【担当者以外(レビュアー)】
-
-⑨ レビューする
-
-⑩ プルリク後の修正については担当者で話し合って進める
-
-# レビュー OK であればマスターブランチ（main）にマージする
-
-⑥④ のプルリクを担当者同士でレビュー
-　担当者同士で質問しあったりして意見（コード）を１つにまとめる
-
-⑦ 担当者でレビューを行い、意見がまとまればマージするプルリクを承認し、① のブランチにマージする。
-→ マージ後、作業者の 1 人がローカル環境で ① のブランチを最新状態にした後、git pull origin main を行う。（ここでコンフリクトなどが発生する場合は、解消すること）
-→ その後、① のブランチを github へ連携する（リモートの ① のブランチへ反映させる）
-
-⑧ マスターブランチ（main）にプルリクをあげる（担当者の作業はここまで）
-　 ① のブランチを操作して base ブランチを main にしてプルリクをあげる
-
-【担当者以外(レビュアー)】
-
-⑨ レビューする
-
-⑩ プルリク後の修正については担当者で話し合って進める
-
-レビュー OK であればマスターブランチ（main）にマージする
-
-> > > > > > > 5efbd923fe98f551918d04079c7737296a37bb73
-
-複数の担当者で共同作業 - Google スライド
-![複数の担当者で作業する場合どうするか](https://user-images.githubusercontent.com/78947543/151792983-c108ee4a-9e39-43f6-aec2-46120e3260f5.jpg)
