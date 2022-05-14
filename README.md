@@ -3,7 +3,7 @@
 With this todo app, you can create a new todo entry, read the all entries on a list, delete, edit and sort them.
 You can also add comments in the todo detail page.
 
-## Table of Contents (Optional)
+## Table of Contents 
 - Overview
 - How to Install and Run the Project
 - How to Use the Project
@@ -11,7 +11,7 @@ You can also add comments in the todo detail page.
 
 ## Overview
 
-### Technologies used
+### Technologies
 
 This project was led by code learners, who wants to build up their knowledge and skills on React as well as some of the most popular frameworks and libraries in React development. As such, the following technologies are chosen.
 
