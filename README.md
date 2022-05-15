@@ -55,7 +55,7 @@ Visit https://todo-team-2-qigd0p0al-m8na.vercel.app/
 
 Here is the video that shows some functions of the app.
 
-https://user-images.githubusercontent.com/93969412/168469429-5561b7bd-44eb-4f21-ace8-fd4f136e702c.mov
+https://user-images.githubusercontent.com/93969412/168469492-017b148b-61e8-4e73-a1ef-ec1c92cba0f9.mov
 
 
 ### Creat a new todo
