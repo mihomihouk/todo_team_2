@@ -32,12 +32,6 @@ This project was led by code learners, who wants to build up their knowledge and
 - Search bar to specify a todo 
 - Select box to filter out todos under chosen condition
 
-### Challenges
-
-- Write code that other members can easily read and reuse
-- Structure folders and files for component reusuability and maintainability
-- Maintain smooth communication across all team members, and ensure successul project management using Slack and weekly meeting to meet the deadline
-
 ## 🔽 How to Install and Run
 
 To run the project in your local environment, follow the steps below.
