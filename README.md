@@ -53,10 +53,9 @@ To run the project in your local environment, follow the steps below.
 
 Visit https://todo-team-2-qigd0p0al-m8na.vercel.app/
 
+Here is the video that shows some functions of the app.
 
-
-https://user-images.githubusercontent.com/93969412/168444579-dee4cf29-d827-4197-8dc7-65478218f8c9.mov
-
+https://user-images.githubusercontent.com/93969412/168469429-5561b7bd-44eb-4f21-ace8-fd4f136e702c.mov
 
 
 ### Creat a new todo
